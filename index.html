@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>노래 추천</title>
+        <link href="style.css" rel="stylesheet">
+        <style>
+            img,figure{height: 100px;margin: 20px;display: inline;}
+            p{display: inline;margin:52px;font-size: 20px;}
+            h2{font-size:25px;}
+        </style>
+    </head>
+    <body>
+        <h1>노래 추천</h1><hr>
+        <script>
+            function viewtoday(){
+                var today = new Date();
+                document.write("<h2>"+today.getFullYear()+"년 "+(today.getMonth()+1)+"월 "+today.getDate()+"일<h2>");
+            }
+            viewtoday();
+        </script>
+        <h2>오늘 당신의 기분은?<br>(텍스트를 클릭하세요.)</h2>
+        <div id="emotion" style="text-align: center;">
+            <img src="happy.png">
+            <img src="love.png">
+            <img src="soso.png">
+            <img src="sad.png">
+            <img src="angry.png">
+        </div>
+        <div id="emotion_word" style="text-align: center;">
+            <a href="happy.html"><p>행복</p></a>
+            <a href="love.html"><p>사랑</p></a>
+            <a href="soso.html"><p>무심</p></a>
+            <a href="sad.html"><p>슬픔</p></a>
+            <a href="angry.html"><p>분노</p></a>
+        </div>
+    </body>
+</html>

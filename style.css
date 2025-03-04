@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gowun+Batang&family=Zen+Maru+Gothic&display=swap');
+
+body{
+    background-color: rgb(222, 229, 248);
+}
+h1,h2,h3{
+    text-align: center;
+    color: rgb(47, 47, 107);
+}
+hr{
+    border: 1px solid black;
+}
+h1{font-family: "Do Hyeon";font-size: 45px;}
+h2{font-family: "Gowun Batang";}
+h3{font-family: "Gowun Batang";margin: 15px;}
+p{font-family:"Gowun Batang";}
+a{text-decoration: none;color:black;}
+table{
+    text-align: center;
+    table-layout: fixed;
+    margin: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: "Zen Maru Gothic";
+}
+iframe{height: 300px;width: 520px;}
+img{height: 300px;}
+a>p:hover{
+    background-color: navy;
+    color:white;
+}
+.jp{font-family: "Zen Maru Gothic";}
+.kr{font-family:"Gowun Batang";}
+.moveTopBtn {
+    top: 92%;
+    left: 92%;
+    border-radius: 10%;
+    height: 30px;
+    width:50px;
+    background-color: #ffffff;
+    border: rgb(22, 21, 94) 3px solid;
+    position: fixed;
+    z-index: 2;
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+    font-family: "Do Hyeon";
+    font-size: 25px;
+    color: rgb(22, 21, 94);
+}
+td:hover{
+    text-decoration-line:underline;
+}
+.songs{
+    background-color: rgb(240, 244, 255);
+}
